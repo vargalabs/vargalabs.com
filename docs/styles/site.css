@@ -1,0 +1,31 @@
+/* Solarized colours, matching the VargaLABS and SIGMA IAM logos. No web fonts, no external requests. */
+:root {
+  --md-text-font: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --md-code-font: "DejaVu Sans Mono", Consolas, monospace;
+}
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #032b35;
+  --md-primary-bg-color: #fdf6e3;
+  --md-accent-fg-color: #cb4b16;
+  --md-default-bg-color: #fdf6e3;
+  --md-typeset-a-color: #cb4b16;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #032b35;
+  --md-primary-bg-color: #fdf6e3;
+  --md-accent-fg-color: #cb4b16;
+  --md-default-bg-color: #002b36;
+  --md-default-fg-color: #eee8d5;
+  --md-typeset-a-color: #cb4b16;
+}
+.md-header__button.md-logo img { height: 2rem; border-radius: 4px; }
+
+.hero { display: flex; gap: 2rem; align-items: center; flex-wrap: wrap; margin: 1rem 0 2rem; }
+.hero img { width: 180px; height: 180px; border-radius: 12px; }
+.hero div { flex: 1 1 18rem; }
+
+.product { display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap; }
+.product img { width: 120px; height: 120px; }
+.product div { flex: 1 1 18rem; }
+[data-md-color-scheme="default"] .logo-dark,
+[data-md-color-scheme="slate"] .logo-light { display: none; }
