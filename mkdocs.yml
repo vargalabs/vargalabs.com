@@ -1,0 +1,45 @@
+site_name: VargaLABS
+site_url: https://vargalabs.com/
+site_description: SIGMA software and licence service by VargaLABS, Toronto, Canada
+site_author: VargaLABS
+copyright: Copyright &copy; 2025&ndash;2026 VargaLABS, Toronto, Ontario, Canada &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="mailto:info@vargalabs.com">info@vargalabs.com</a>
+docs_dir: docs
+nav:
+  - Home: index.md
+  - Privacy: privacy/index.md
+  - Terms: terms/index.md
+theme:
+  name: material
+  logo: assets/vargalabs.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font: false
+extra:
+  generator: false
+  social:
+    - icon: material/email-fast
+      link: mailto:info@vargalabs.com
+    - icon: material/github
+      link: https://github.com/vargalabs
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+extra_css:
+  - styles/site.css
